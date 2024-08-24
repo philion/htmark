@@ -1,5 +1,8 @@
-goldmark
+htmark
 ==========================================
+
+Forked from `goldmark` to generate `html.Node`s in the document parse, instead of ast.Node. This allows direct matching using CSS and XPath libraries to match nodes, and CSS-based rendering libraries.
+
 
 [![https://pkg.go.dev/github.com/yuin/goldmark](https://pkg.go.dev/badge/github.com/yuin/goldmark.svg)](https://pkg.go.dev/github.com/yuin/goldmark)
 [![https://github.com/yuin/goldmark/actions?query=workflow:test](https://github.com/yuin/goldmark/workflows/test/badge.svg?branch=master&event=push)](https://github.com/yuin/goldmark/actions?query=workflow:test)
